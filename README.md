@@ -1,4 +1,4 @@
-# NYT React Search
+# <a href="https://nytscrapeapp.herokuapp.com/" target="_blank">NYT React Search</a>
 
 ### Overview
 React-based rendition of the New York Times Article Search application. This application requires React components, helper/util functions, and React mounting life cycle to query and display articles based on user searches. Requires Node, Express and MongoDB so that users can save articles to read later.
