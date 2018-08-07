@@ -2,4 +2,27 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.nytHeader{
+  color: grey;
+  text-align: center;
+  background-color: black;
+}
+
+.saveButton{
+  background-color: grey; 
+}
+
+.deleteButton{
+  background-color: rgb(92, 9, 9);
+}
+
+.submitButton{
+  background-color: black;
+}
+
+.viewArticleButton{
+  background-color: black;
 }

@@ -18,9 +18,9 @@ const Results = props =>
 
       <span className="btn-group">
         <a href={props.url} target="_blank">
-          <button className="btn red ">View Article</button>
+          <button className="btn viewArticleButton ">View Article</button>
         </a>
-        <button className="btn blue" onClick={() => props.handleSaveButton(props._id)}>Save</button>
+        <button className="btn saveButton" onClick={() => props.handleSaveButton(props._id)}>Save</button>
       </span>
     </div>
 

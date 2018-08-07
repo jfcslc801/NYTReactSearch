@@ -11,9 +11,9 @@ const Saved = props =>
 
       <span className="btn-group">
         <a href={props.url} target="_blank">
-          <button className="btn blue ">View Article</button>
+          <button className="btn viewArticleButton ">View Article</button>
         </a>
-        <button className="btn red" onClick={() => props.handleDeleteButton(props._id)}>Delete</button>
+        <button className="btn deleteButton" onClick={() => props.handleDeleteButton(props._id)}>Delete</button>
       </span>
   </div>
 

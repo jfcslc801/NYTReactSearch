@@ -112,9 +112,9 @@ class Main extends Component {
 
 
 
-          <CardPanel className="teal lighten-4 black-text center">
-            <h1 className="text-center"><strong>New York Times Article Scrape</strong></h1>
-            <h2 className="text-center">Scrape and Save NYT articles.</h2>
+          <CardPanel className="nytHeader">
+            <h1 className="text-center"><strong>NYT Article Scrape</strong></h1>
+            <h2 className="text-center">Scrape and Save articles.</h2>
 
           </CardPanel>
 
@@ -154,13 +154,13 @@ class Main extends Component {
             </div>
           </CardPanel>
 
-          {/* <footer>
+          <footer>
             <hr />
             <p className="pull-right">
               <i className="fa fa-github" aria-hidden="true"></i>
               Proudly built using React.js
             </p>
-          </footer> */}
+          </footer>
         </div>
       </div>
 
