@@ -112,57 +112,57 @@ class Main extends Component {
 
 
 
-          <CardPanel className="nytHeader">
+          <CardPanel className="center" style={{color: 'pink', fontFamily: 'cursive', fontFamily: 'san serif', background: 'black'  }}>
             <h1 className="text-center"><strong>NYT Article Scrape</strong></h1>
-            <h2 className="text-center">Scrape and Save articles.</h2>
+          <h2 className="text-center">Scrape and Save articles.</h2>
 
           </CardPanel>
 
-          {/* Search Form and Results Section */}
-          <CardPanel>
-            <Search
-              handleTopicChange={this.handleTopicChange}
-              handleStartYearChange={this.handleStartYearChange}
-              handleEndYearChange={this.handleEndYearChange}
-              handleFormSubmit={this.handleFormSubmit}
-              renderArticles={this.renderArticles}
-            />
-            {/* Saved Articles Section */}
+        {/* Search Form and Results Section */}
+        <CardPanel>
+          <Search
+            handleTopicChange={this.handleTopicChange}
+            handleStartYearChange={this.handleStartYearChange}
+            handleEndYearChange={this.handleEndYearChange}
+            handleFormSubmit={this.handleFormSubmit}
+            renderArticles={this.renderArticles}
+          />
+          {/* Saved Articles Section */}
 
-          </CardPanel>
+        </CardPanel>
 
 
-          <CardPanel>
-            <div className="c">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="panel panel-primary">
-                    <div className="panel-heading">
-                      <h3 className="panel-title">
-                        <strong>
-                          <i className="fa fa-download" aria-hidden="true"></i> Saved Articles</strong>
-                      </h3>
-                    </div>
-                    <div className="panel-body">
-                      <ul className="list-group">
-                        {this.renderSaved()}
-                      </ul>
-                    </div>
+        <CardPanel>
+          <div className="c">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="panel panel-primary">
+                  <div className="panel-heading">
+                    <h3 className="panel-title">
+                      <strong>
+                        <i className="fa fa-download" aria-hidden="true"></i> Saved Articles</strong>
+                    </h3>
+                  </div>
+                  <div className="panel-body">
+                    <ul className="list-group">
+                      {this.renderSaved()}
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-          </CardPanel>
+          </div>
+        </CardPanel>
 
-          <footer>
-            <hr />
-            <p className="pull-right">
-              <i className="fa fa-github" aria-hidden="true"></i>
-              Proudly built using React.js
+        <footer>
+          <hr />
+          <p className="pull-right">
+            <i className="fa fa-github" aria-hidden="true"></i>
+            Proudly built using React.js
             </p>
-          </footer>
-        </div>
+        </footer>
       </div>
+      </div >
 
     );
   }
